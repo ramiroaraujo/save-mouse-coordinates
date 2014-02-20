@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C8128E4B158A9CB3CA3146A9"
+               BuildableName = "save-mouse-coordinates"
+               BlueprintName = "save-mouse-coordinates"
+               ReferencedContainer = "container:save-mouse-coordinates.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C8128E4B158A9CB3CA3146A9"
+            BuildableName = "save-mouse-coordinates"
+            BlueprintName = "save-mouse-coordinates"
+            ReferencedContainer = "container:save-mouse-coordinates.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C812829C50B2CA345AB0EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8128B432DCBBA52D474C20C /* main.m */; };
+		C812863F668C136F52EE444C /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8128ACC19124D4370923D74 /* ApplicationServices.framework */; };
+		C8128B57FB7702153F09C045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81287E762D03EEC3F16F677 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8128EFDA3F13075BB78D83E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C81287E762D03EEC3F16F677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8128ACC19124D4370923D74 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		C8128B298E6150AD2E762F15 /* save-mouse-coordinates-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "save-mouse-coordinates-Prefix.pch"; sourceTree = "<group>"; };
+		C8128B432DCBBA52D474C20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8128BBEE1733DBE5460CAE5 /* save_mouse_coordinates.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = save_mouse_coordinates.1; sourceTree = "<group>"; };
+		C8128E577A1EAA5FD03DD31A /* save-mouse-coordinates */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "save-mouse-coordinates"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C81283F7CE73122588F43498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8128B57FB7702153F09C045 /* Foundation.framework in Frameworks */,
+				C812863F668C136F52EE444C /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8128567E7C94EA8F7A08D0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C81287E762D03EEC3F16F677 /* Foundation.framework */,
+				C8128ACC19124D4370923D74 /* ApplicationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8128B7A4E9C9D9E3CA2CACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8128E577A1EAA5FD03DD31A /* save-mouse-coordinates */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8128E5A93B0C4E66466B978 /* save-mouse-coordinates */ = {
+			isa = PBXGroup;
+			children = (
+				C8128B432DCBBA52D474C20C /* main.m */,
+				C8128EB2E1FE23C6A2DC5775 /* Supporting Files */,
+				C8128BBEE1733DBE5460CAE5 /* save_mouse_coordinates.1 */,
+			);
+			path = "save-mouse-coordinates";
+			sourceTree = "<group>";
+		};
+		C8128EB2E1FE23C6A2DC5775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8128B298E6150AD2E762F15 /* save-mouse-coordinates-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8128FAE74F6F025B7F7411C = {
+			isa = PBXGroup;
+			children = (
+				C8128B7A4E9C9D9E3CA2CACD /* Products */,
+				C8128567E7C94EA8F7A08D0D /* Frameworks */,
+				C8128E5A93B0C4E66466B978 /* save-mouse-coordinates */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8128E4B158A9CB3CA3146A9 /* save-mouse-coordinates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8128E51960887110FAA45F4 /* Build configuration list for PBXNativeTarget "save-mouse-coordinates" */;
+			buildPhases = (
+				C8128BEB48DEE845134EE4E0 /* Sources */,
+				C81283F7CE73122588F43498 /* Frameworks */,
+				C8128EFDA3F13075BB78D83E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "save-mouse-coordinates";
+			productName = "save-mouse-coordinates";
+			productReference = C8128E577A1EAA5FD03DD31A /* save-mouse-coordinates */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C81284E68BBE7C0B629FA506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Ramiro Araujo";
+			};
+			buildConfigurationList = C81289E06018A2ED314B8568 /* Build configuration list for PBXProject "save-mouse-coordinates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8128FAE74F6F025B7F7411C;
+			productRefGroup = C8128B7A4E9C9D9E3CA2CACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8128E4B158A9CB3CA3146A9 /* save-mouse-coordinates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8128BEB48DEE845134EE4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C812829C50B2CA345AB0EB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C812816AA8A619CC7C6ABBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "save-mouse-coordinates/save-mouse-coordinates-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C812819C8399326CDE92C818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C8128B701A37DCC8CAE535E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "save-mouse-coordinates/save-mouse-coordinates-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8128F9BF5507B125E57F93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C81289E06018A2ED314B8568 /* Build configuration list for PBXProject "save-mouse-coordinates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C812819C8399326CDE92C818 /* Release */,
+				C8128F9BF5507B125E57F93E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8128E51960887110FAA45F4 /* Build configuration list for PBXNativeTarget "save-mouse-coordinates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8128B701A37DCC8CAE535E7 /* Release */,
+				C812816AA8A619CC7C6ABBE9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C81284E68BBE7C0B629FA506 /* Project object */;
+}
