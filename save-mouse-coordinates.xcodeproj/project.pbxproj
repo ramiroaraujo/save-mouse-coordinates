@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C812829C50B2CA345AB0EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8128B432DCBBA52D474C20C /* main.m */; };
-		C812863F668C136F52EE444C /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8128ACC19124D4370923D74 /* ApplicationServices.framework */; };
+		C81288FDBA94A68907B53254 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C812815EC5D994147DBBE37A /* ApplicationServices.framework */; };
 		C8128B57FB7702153F09C045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81287E762D03EEC3F16F677 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C812815EC5D994147DBBE37A /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		C81287E762D03EEC3F16F677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C8128ACC19124D4370923D74 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		C8128B298E6150AD2E762F15 /* save-mouse-coordinates-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "save-mouse-coordinates-Prefix.pch"; sourceTree = "<group>"; };
 		C8128B432DCBBA52D474C20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8128BBEE1733DBE5460CAE5 /* save_mouse_coordinates.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = save_mouse_coordinates.1; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8128B57FB7702153F09C045 /* Foundation.framework in Frameworks */,
-				C812863F668C136F52EE444C /* ApplicationServices.framework in Frameworks */,
+				C81288FDBA94A68907B53254 /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				C81287E762D03EEC3F16F677 /* Foundation.framework */,
-				C8128ACC19124D4370923D74 /* ApplicationServices.framework */,
+				C812815EC5D994147DBBE37A /* ApplicationServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
