@@ -17,11 +17,11 @@ static CGEventRef eventTapCallback(CGEventTapProxy proxy, CGEventType type, CGEv
     CGPoint mouse = CGEventGetLocation(event);
 
     if (type == kCGEventLeftMouseDown) {
-        x_ini = (int) mouse.x;
-        y_ini = (int) mouse.y;
+        x_ini = (int) ceil(mouse.x);
+        y_ini = (int) ceil(mouse.y);
     } else if (type == kCGEventLeftMouseUp) {
-        x_end = (int) mouse.x;
-        y_end = (int) mouse.y;
+        x_end = (int) ceil(mouse.x);
+        y_end = (int) ceil(mouse.y);
 
         // write the coordinates and exit
         NSString *string = [NSString stringWithFormat:@"%i %i %i %i", x_ini, x_end, y_ini, y_end];
