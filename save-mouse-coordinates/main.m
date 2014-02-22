@@ -17,8 +17,8 @@ static CGEventRef eventTapCallback(CGEventTapProxy proxy, CGEventType type, CGEv
     CGPoint mouse = CGEventGetLocation(event);
 
     if (type == kCGEventLeftMouseDown) {
-        x_ini = (int) ceil(mouse.x);
-        y_ini = (int) ceil(mouse.y);
+        x_ini = (int) floor(mouse.x);
+        y_ini = (int) floor(mouse.y);
     } else if (type == kCGEventLeftMouseUp) {
         x_end = (int) ceil(mouse.x);
         y_end = (int) ceil(mouse.y);
