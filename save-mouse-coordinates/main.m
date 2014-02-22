@@ -25,9 +25,7 @@ static CGEventRef eventTapCallback(CGEventTapProxy proxy, CGEventType type, CGEv
 
         // write the coordinates and exit
         NSString *string = [NSString stringWithFormat:@"%i %i %i %i", x_ini, x_end, y_ini, y_end];
-        NSError *error = nil;
-        NSString *fileName = @"coordinates";
-        [string writeToFile:fileName atomically:YES encoding:NSUTF8StringEncoding error:&error];
+        [string writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
         exit(0);
     } else {
         CGKeyCode keyCode = (CGKeyCode) CGEventGetIntegerValueField(event, kCGKeyboardEventKeycode);
